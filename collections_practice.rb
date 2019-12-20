@@ -3,6 +3,12 @@ def sort_array_asc(array)
   array.sort do |a,b|
     a <=> b
     end
-    rescue ExceptionName
+#  rescue ExceptionName
 
     end
+
+def sort_array_desc(array)
+  array.sort do |b,a|
+    b <=> a 
+  end
+end
