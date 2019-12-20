@@ -17,3 +17,7 @@ array2 = ["Jeff", "Steven", "Jill", "Jessie", "Bartholemew"]
 def sort_array_char_count(array2)
   array2.sort {|a,b| a.length <=> b.length}
 end
+
+def swap_elements(array)
+  array.swap!(2,3)
+end
