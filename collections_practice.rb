@@ -1,8 +1,8 @@
 
 def sort_array_asc(array)
-  array.sort do |a,b| 
+  array.sort do |a,b|
     a <=> begin
     end
     rescue ExceptionName
-      
+
     end
