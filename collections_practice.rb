@@ -12,3 +12,8 @@ def sort_array_desc(array)
     b <=> a
   end
 end
+
+array2 = ["Jeff", "Steven", "Jill", "Jessie", "Bartholemew"]
+def sort_array_char_count(array2)
+  array2.sort {|a,b| left.length <=> right.length}
+end
