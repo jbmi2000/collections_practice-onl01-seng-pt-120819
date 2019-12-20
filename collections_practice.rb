@@ -26,3 +26,10 @@ end
 def reverse_array(array)
   array.reverse 
 end
+
+array3 = ["Fist", "Just", "Mist", "Dust"]
+def kesha_maker(array3)
+  array3.each do |letter|
+    letter[2] ="$"
+  end
+end 
